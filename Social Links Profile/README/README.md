@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile.png](/assets/images/Mobile.png)
-![1440.png](/assets/images/1440.png)
-![Active state.png](/assets/images/Active%20state%201440.png)
+![Mobile.png](/Social%20Links%20Profile/assets/images/Mobile.png)
+![1440.png](/Social%20Links%20Profile/assets/images/1440.png)
+![Active state.png](/Social%20Links%20Profile/assets/images/Active%20state%201440.png)
 
 
 ### Links
