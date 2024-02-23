@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/social-links-profile-using-css-flexbox-XZA_EY0xPN)
-- Live Site URL: [https://your-live-site-url.com](https://amiraxhamza.github.io/Frontend-Mentor---Social-links-profile-solution/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/social-links-profile-using-css-flexbox-XZA_EY0xPN)
+- Live Site URL: [Live site](https://amiraxhamza.github.io/Frontend-Mentor---Social-links-profile-solution/)
 
 
 ### Built with
