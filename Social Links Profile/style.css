@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    height: 550px;
+    width: 350px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.socials {
+    background-color: hsl(0, 0%, 20%);
+    height: 45px;
+    width: 275px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.socials_tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.socials_tabs a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.socials:active,
+.socials:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(75, 94%, 57%);
+}
+
+@media (max-width: 375px) {
+    main {
+        width: 320px;
+        height: 540px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .location {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .socials {
+        width: 260px;
+        height: 40px;
+    }
+
+    .socials_tabs {
+        font-size: 13px;
+    }
+}
